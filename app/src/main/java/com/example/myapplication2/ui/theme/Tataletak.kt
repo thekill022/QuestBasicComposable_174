@@ -133,7 +133,7 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
             .height(height = 300.dp)
             .background(color = Color.Cyan)) {
             Image(painter = gambar, contentDescription = null, contentScale = ContentScale.Fit )
-            Text(text = "My Cat",fontSize = 50.sp, color = Color.Red, fontWeight = FontWeight.Bold, fontFamily = FontFamily.Cursive)
+            Text(text = "My Cat",fontSize = 50.sp, color = Color.Red, fontWeight = FontWeight.Bold, fontFamily = FontFamily.Cursive,  modifier = modifier.align(alignment = Alignment.Center))
         }
     }
 }
